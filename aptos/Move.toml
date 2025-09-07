@@ -1,0 +1,10 @@
+[package]
+name = "AtomicSwap"
+version = "0.0.1"
+authors = ["Your Name <your@email.com>"]
+
+[addresses]
+AtomicSwap = "0x5866c90e0f7da4fb7685a7a76e270810cdd8828b01031cc91cfc960032c0204b"
+
+[dependencies]
+AptosFramework = { address = "0x1", git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }

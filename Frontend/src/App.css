@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Container */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #f0f0f5, #ffffff);
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Card */
+.swap-card {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 30px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  border: 1px solid #e0e0e0;
+}
+
+/* Header */
+.swap-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.swap-header h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2c2c2c;
+}
+
+.wallet-btn {
+  padding: 8px 16px;
+  background: #ebf4ff;
+  color: #1d4ed8;
+  font-weight: 600;
+  border: 1px solid #bfdbfe;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.wallet-btn:hover {
+  background: #dbeafe;
+}
+
+/* Swap Section */
+.swap-section {
+  margin-bottom: 20px;
+}
+
+.swap-section label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #4b5563;
+}
+
+.swap-section select,
+.swap-section input {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 20px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.swap-section select:focus,
+.swap-section input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 8px rgba(59,130,246,0.3);
+}
+
+/* Input group with token label and input */
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f9fafb;
+  border: 1px solid #d1d5db;
+  border-radius: 20px;
+  padding: 8px 12px;
+  margin-top: 8px;
+}
+
+.input-group span {
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+.input-group input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+}
+
+.input-group button {
+  padding: 6px 12px;
+  background: #f3f4f6;
+  border: 1px solid #d1d5db;
+  border-radius: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.input-group button:hover {
+  background: #e5e7eb;
+}
+
+/* Action buttons */
+.action-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.action-buttons button {
+  flex: 1;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Individual button styles */
+.lock-btn {
+  background: linear-gradient(90deg, #3b82f6, #2563eb);
+  color: #ffffff;
+}
+
+.lock-btn:hover {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+}
+
+.claim-btn {
+  background: linear-gradient(90deg, #10b981, #059669);
+  color: #ffffff;
+}
+
+.claim-btn:hover {
+  background: linear-gradient(90deg, #059669, #047857);
+}
+
+.refund-btn {
+  background: linear-gradient(90deg, #ef4444, #b91c1c);
+  color: #ffffff;
+}
+
+.refund-btn:hover {
+  background: linear-gradient(90deg, #b91c1c, #991b1b);
+}

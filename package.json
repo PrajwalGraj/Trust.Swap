@@ -1,0 +1,27 @@
+{
+  "name": "folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aptos": "^1.21.0",
+    "dotenv": "^17.2.2",
+    "hardhat": "^3.0.4",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.0",
+    "@types/node": "^24.3.1",
+    "autoprefixer": "^10.4.21",
+    "ethers": "^6.15.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.9.2"
+  }
+}
